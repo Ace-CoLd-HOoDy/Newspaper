@@ -24,6 +24,12 @@ ul {
     padding: 0;
 }
 
+.title {
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 /* Header */
 .header {
     background-color: #aa43a2;
@@ -53,12 +59,16 @@ ul {
     border-radius: 4px;
     background-color: rgb(247, 247, 247);
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2);
-    color: black;
-    font-size: 18px;
+
 }
 
 .nav-item:hover {
     background-color: white;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
 }
 
 /* Main */
@@ -73,11 +83,6 @@ ul {
     border: 1px solid grey;
     border-radius: 20px;
     box-shadow: 0px 1px 1px RGB(0 0 0/12%), 0px 4px 4px RGB(0 0 0/6%), 1px 4px 6px RGB(0 0 0/16%);
-}
-
-.title {
-    text-align: center;
-    font-size: 40px;
 }
 
 /* News */
@@ -166,20 +171,17 @@ ul {
     border: 1px solid gray;
     border-radius: 20px;
 }
-
-.title {
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
 .cat-title {
     font-size: 30px;
     padding: 30px 0;
 }
 
 .cat-img {
-    padding-bottom: 30px;
     border-radius: 5px;
+}
+
+.cat-text{
+    padding-top: 30px;
 }
 
 /* Dog */
@@ -193,23 +195,17 @@ ul {
     border-radius: 20px;
 }
 
-.title {
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
 .dog-title {
     font-size: 30px;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .dog-img {
-    padding-bottom: 30px;
     border-radius: 5px;
 }
 
 .dog-text {
-    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 
@@ -226,6 +222,7 @@ ul {
 .study-img {
     width: 800px;
     margin: 25px auto;
+    display: block;
 }
 
 .study-text {
@@ -253,14 +250,13 @@ ul {
     border-radius: 20px;
 }
 
-.title {
-    font-size: 40px;
-    padding-bottom: 30px;
+.flood-img {
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
 
-.flood-img {
-    padding-bottom: 30px;
-    border-radius: 5px;
+.flood-title{
+    margin-bottom: 20px;
 }
 
 .flood-text {
@@ -282,13 +278,8 @@ ul {
     border-radius: 20px;
 }
 
-.title {
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
 .paper-img {
-    padding-bottom: 30px;
+    margin: 30px 0;
     border-radius: 5px;
     width: 600px;
 }
@@ -305,17 +296,7 @@ ul {
     font-size: 20px;
     border: 1px solid gray;
     border-radius: 20px;
-}
-
-.title {
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
-.center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .apps-main-text{
@@ -330,13 +311,13 @@ ul {
 }
 
 .apps-img {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     border-radius: 5px;
     width: 600px;
 }
 
 .programs-img {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     border-radius: 5px;
     width: 400px;
 }
@@ -353,6 +334,7 @@ ul {
 
 .apps-list {
     list-style: square;
+    text-align: left;
 }
 
 .apps-link{
